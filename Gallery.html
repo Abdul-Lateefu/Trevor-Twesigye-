@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MENGO HILL MEDICAL CENTER PATIENTS</title>
+    <style>
+        /* Setting background animation */
+        body {
+            background: url("background1.jpg") no-repeat center center fixed;
+            background-size: cover;
+            animation: moveBackground 20s linear infinite;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Background image moving animation */
+        @keyframes moveBackground {
+            0% { background-position: 0% 0%; }
+            100% { background-position: 100% 0%; }
+        }
+
+        header {
+            text-align: center;
+            color: red;
+            margin-top: 20px;
+        }
+
+        section {
+            text-align: center;
+            padding: 20px;
+        }
+
+        section h2 {
+            color: yellow;
+        }
+
+        section p {
+            font-style: italic;
+            color: lightblue;
+        }
+
+        /* Styling for images */
+        section div {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        section img {
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s;
+        }
+
+        section img:hover {
+            transform: scale(1.05);
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: darkgreen;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        nav {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            background: rgba(0, 128, 0, 0.7);
+            padding: 10px;
+            border-radius: 8px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            display: block;
+            margin: 5px 0;
+        }
+
+        nav a:hover {
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h4>PICTURES</h4>
+    </header>
+
+    <section>
+        <h2><u>Services given to people</u></h2>
+        <p>These are the patients who have received our services</p>
+        <div>
+            <img src="T.jpg" width="400" height="400" alt="Image T">
+            <img src="Z.jpg" width="300" height="400" alt="Image Z">
+            <img src="H.jpg" width="300" height="400" alt="Image H"><br>
+            <img src="T.jpg" width="300" height="500" alt="Image T">
+        </div>
+    </section>
+
+    <footer>
+        <p>Mengo Hill Medical Center. We Treat and Save Lives</p>
+    </footer>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="About Us.html">About Us</a>
+        <a href="Contact Us.html">Contact Us</a>
+    </nav>
+</body>
+</html>

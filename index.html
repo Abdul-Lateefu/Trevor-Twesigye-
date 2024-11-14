@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mengo Hill Medical Center</title>
+    <style>
+        body {
+            font-family: Georgia, serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f4f8;
+            color: #333;
+        }
+        header {
+            background-color: #006400;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        nav {
+            background-color: #333;
+            padding: 15px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #00cc66;
+            text-decoration: underline;
+        }
+        .hero {
+            background-image: url('H.jpg'); /* Replace with your hospital image path */
+            height: 400px;
+            background-size: cover;
+            background-position: center;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+            animation: slideBackground 20s infinite linear;
+        }
+        @keyframes slideBackground {
+            0% { background-position: 0 0; }
+            100% { background-position: -1000px 0; }
+        }
+        .hero h1 {
+            font-size: 48px;
+            font-weight: bold;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        }
+        footer {
+            background-color: #006400;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+        }
+        footer p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Mengo Hill Medical Center</h1>
+    </header>
+
+    <nav>
+        <a href="About Us.html">About Us</a>
+        
+        <a href="Contact Us.html">Contact Us
+        <a href="Gallery.html">Gallery</a>
+    </nav>
+
+    <div class="hero">
+        <h1>Treating and Saving Lives</h1>
+    </div>
+
+    <footer id="contact">
+        <p>Contact Us: mengohillmedicalcenter@gmail.com | Phone: +256 777 000 333 / +256 777 555 333</p>
+        <p>&copy; 2024 Mengo Hill Medical Center. All rights reserved.</p>
+    </footer>
+</body>
+</html>
